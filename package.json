@@ -1,13 +1,14 @@
 {
   "name": "rade",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "A random but fair student exam selector.",
   "main": "index.js",
   "bin": {
     "rade": "./index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "keywords": [
     "Grade",
@@ -18,12 +19,17 @@
   "license": "MIT",
   "devDependencies": {
     "cross-env": "^5.0.5",
-    "eslint": "^4.8.0"
+    "eslint": "^4.8.0",
+    "semantic-release": "^8.0.3"
   },
   "dependencies": {
     "cli-table": "^0.3.1",
     "commander": "^2.11.0",
     "csv": "^1.1.1",
     "sqlite3": "^3.1.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/multimediatechnology/rade.git"
   }
 }
