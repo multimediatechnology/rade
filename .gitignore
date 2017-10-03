@@ -1,0 +1,13 @@
+# IDE
+.idea/
+
+# System
+*.DS_Store
+
+# Node.js
+npm_debug.log
+node_modules/
+
+# Database
+!data/.keep
+data/

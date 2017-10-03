@@ -1,0 +1,29 @@
+{
+  "name": "rade",
+  "version": "1.0.0",
+  "description": "A random but fair student exam selector.",
+  "main": "index.js",
+  "bin": {
+    "rade": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Grade",
+    "Random",
+    "Exam"
+  ],
+  "author": "Hannes Moser <hannes@impossiblearts.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^5.0.5",
+    "eslint": "^4.8.0"
+  },
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "commander": "^2.11.0",
+    "csv": "^1.1.1",
+    "sqlite3": "^3.1.13"
+  }
+}
