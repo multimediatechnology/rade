@@ -75,7 +75,7 @@ program
   .command('reset-all [count]')
   .description('Reset all student counters')
   .alias('ra')
-  .action((count) => {
+  .action((count = 0) => {
     const stmt = db.prepare('UPDATE students SET count=?')
     stmt.run(count)
     stmt.finalize()
